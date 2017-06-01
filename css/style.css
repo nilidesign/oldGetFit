@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    background-color: #F7F7F7;
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    padding: 20px 20px;
+    position: fixed;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 0.1em solid rgba(222, 222, 222, 0.2);
+}
+
+.logo {
+    position: fixed;
+    z-index: 1;
+    left: 20px;
+    top: 0px;
+    opacity: 0.7;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0px 10px 10px 20px;
+    font-size: 16px;
+    color: black;
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid black;
+}
+
+.button {
+    padding: 0 auto;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 20px;
+    width: 10%;
+    border-radius: 5px;
+    color: white;
+    background: #7787FF; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#7787FF, rgba(63, 86, 134, 0.8)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#7787FF, rgba(63, 86, 134, 0.8)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#7787FF, rgba(63, 86, 134, 0.8)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#7787FF, rgba(63, 86, 134, 0.8)); /* Standard syntax */
+    opacity: 0.9;
+}
+
+#section1, .header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
+
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+h1,
+h2 {
+    font-size: 70px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color: #1f1f1f;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #1b8686;
+}
+
+
+#section2 {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+#section3 {
+    background-image: url(../img/appphones2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#section4 {
+    text-align: center;
+    padding: 0 auto;
+    padding-bottom: 150px;
+}
+
+#section5 {
+    background-image: url(../img/limitedetidionzoom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding: 0 auto;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100%;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #404040;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+.text p {
+    font-size: 24px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    padding: 15px;
+    background-color: #222222;
+    color: #F7F7F7;
+    text-align: center;
+}
+
+
+
+
+
+
