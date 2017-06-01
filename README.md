@@ -1,0 +1,2 @@
+# GetFit
+School project, app
